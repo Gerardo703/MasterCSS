@@ -1,0 +1,35 @@
+@font-face{
+    font-family: SatisfyCustom;
+    src: url(fonts/Satisfy/Satisfy-Regular.ttf);
+}
+
+h1{
+    
+    font-family: 'Shadows Into Light', cursive;
+    font-style: italic;
+
+    /*Colores*/
+    /*Colores del sistema*/
+    color: mediumpurple;
+    /*Colores Hexadecimal*/
+    color: #ccc;
+    /*Colores RGB*/
+    color: rgb(255,255,107);
+    /*Colores RGBA*/
+    color: rgba(255,255,107,0.5);
+}
+
+h3{
+    
+    font-family: SatisfyCustom, "Comic Sans MS";
+    font-size: 30px;
+    font-weight: lighter;
+    color: mediumspringgreen;
+}
+
+p{
+    font-family:sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+

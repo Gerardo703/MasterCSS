@@ -1,0 +1,53 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+ul li{
+   font-size: 20px;
+    
+}
+
+ul li:first-child{
+    color: purple;
+    font-weight: bold;
+}
+
+ul li:nth-child(2){
+    color: yellow;
+    font-weight: bold;
+}
+
+ul li:last-child{
+    color: red;
+    font-weight: bold;
+}
+
+#mi-enlace{
+    font-size: 30px;
+    color:lightsalmon;
+}
+
+#mi-enlace:link{
+    color: red;
+}
+
+#mi-enlace:visited{
+    color: blue;
+}
+
+#mi-enlace:hover{
+    color: lime;
+}
+
+#mi-enlace:active{
+    color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 30px;
+}
+input[type="text"]:focus{
+    border: 4px dashed red;
+}

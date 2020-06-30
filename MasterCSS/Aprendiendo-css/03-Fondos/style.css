@@ -1,0 +1,30 @@
+body{
+    background-color: #ccc;
+    background-image: url("img/peñarol.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position:  right bottom;
+
+    text-align: justify;
+    
+}
+
+#caja{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgb(41, 140, 206,0.5);
+    color: white;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+h2{
+    color: black;
+    background-color: rgb(255, 251, 251, 0.5);
+    border: 1px solid black;
+}
+
+p{
+    color:white;
+}

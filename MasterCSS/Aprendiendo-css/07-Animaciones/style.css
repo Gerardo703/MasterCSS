@@ -1,0 +1,57 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+#boton{
+    display: block;
+    padding: 20px;
+    background-color: skyblue;
+    color: white;
+    width: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    border: 5px solid blue;
+    transition: border 500ms, background 10s, border-radius 2s;
+}
+
+#boton:hover{
+    border-radius: 15px;
+    background-color: red;
+    border: 5px solid red;
+}
+
+#caja{
+    margin-top: 25px;
+    width: 250px;
+    height: 250px;
+    background: green;
+    color: white;
+    border: 5px solid black;
+    font-size: 20px;
+    text-align: center;
+    line-height: 250px;  
+    animation-name: desplazamiento;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes desplazamiento{
+    0%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-left: 950px;
+        transform: rotate(180deg);
+        border-radius: 999px;
+        border: 10px dashed white;
+    }
+    100%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+        background: red;
+        
+    }
+}
